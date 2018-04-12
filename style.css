@@ -1,0 +1,102 @@
+/*input.myCheck:checked {
+	text-decoration: line-through;
+}*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(137,168,165);
+	color: white;
+}
+
+#menu {
+	width: 250px;
+	height: 100vh;
+	padding: 0;
+	background: rgb(33,32,34);
+	position: fixed;
+	left: -230px;
+	top: 0;
+	transition: all ease 1s;
+	list-style: none;
+}
+.M {
+	height: 50px;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+#out {
+	margin-left: 5%;
+	margin-top: 1%
+}
+#in {
+	margin: 2%;
+	width: 270px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #00253D;
+    box-sizing: border-box;
+    background: rgb(137,168,165);
+    color: white;
+    outline: none;
+}
+
+
+#menu a {
+	display: block;
+	padding: 10px 14px;
+	color: white;
+	text-decoration: none;
+	border: 1px solid rgb(33,67,102, 0.5);
+}
+
+#menu a:hover {
+	color: yellow;
+	background: #3B444B;
+}
+
+#add1 {
+	width: 30px;
+
+} 
+ #add {
+ 	background: none;
+ 	border: 0;
+    padding: 0;
+    outline: none;
+ }
+
+ #top {
+ 	position: fixed;
+ 	right: 30px;
+ 	bottom: 30px;
+ 	background: none;
+ 	width: 30px;
+ 	background: none;
+
+ }
+
+ #icon {
+ 	height: 700px;
+ }
+
+li .d {
+	width: 20px;
+	hyphens: 5px;
+	background: white;
+}
+
+.allready {
+	text-decoration: line-through;
+}
+
+
+
+
+
